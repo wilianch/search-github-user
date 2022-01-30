@@ -1,0 +1,16 @@
+.link {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--font-text);
+  color: var(--color-text);
+}
+
+.disabled {
+  color: var(--color-disabled);
+}
+
+.link_icon {
+  width: 1rem;
+  color: currentColor;
+}

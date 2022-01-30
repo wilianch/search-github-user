@@ -1,0 +1,30 @@
+.statistics {
+  display: block;
+  width: 100%;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .statistics {
+    padding: 1rem 0;
+  }
+} 
+
+.statistics_item {
+  display: block;
+  text-align: center;
+  color: var(--color-primary-light);
+  font-size: var(--font-text);
+}
+
+.statistics_value {
+  color: var(--color-text);
+  display: block;
+  font-weight: bold;
+  margin-top: .3rem;
+}
