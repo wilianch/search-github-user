@@ -41,7 +41,7 @@
 }
 
 .light {
-  --color-primary:       hsl(0, 0%, 93%);
+  --color-primary:       hsl(0, 0%, 90%);
   --color-primary-alt:   hsl(56, 100%, 97%);
   --color-primary-light: hsl(210, 14%, 53%);
   --color-disabled:      hsl(0, 0%, 63%);
@@ -60,6 +60,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .main_content {

@@ -7,10 +7,7 @@ const URL_API = 'https://api.github.com/users/octocat'
 
 export const Provider = ({ children }) => {
   const [user, setUser] = useState(null)
-  const { data, error } = useSWR(URL_API, fetcher)
-
-  console.log('user: ', user)
-  console.log('error: ', error)
+  const { data } = useSWR(URL_API, fetcher)
 
   useEffect(() => {
     setUser(data)

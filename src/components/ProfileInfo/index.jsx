@@ -27,25 +27,6 @@ export default function ProfileInfo ({ image, username, github, date, bio }) {
       <p className={`${styles.profile_bio} ${bio ? '' : styles.disabled}`}>
         { bio || 'This profile has no bio' }
       </p>
-
-      {/*
-      <div className={styles.profile_info}>
-        <div className={styles.profile_top} >
-          <h3 className={styles.profile_username} >
-            { username }
-          </h3>
-          <time className={styles.profile_date}>
-            Joined { formatDate(date) }
-          </time>
-        </div>
-        <a className={styles.profle_link} href={`https://github.com/${github}`} target="_blank" rel="noreferrer">
-          @{ github }
-        </a>
-        <p className={`${styles.profile_description} ${description ? '' : styles.disabled}`}>
-          { description || 'This profile has no bio' }
-        </p>
-      </div> */}
-
     </section>
   )
 }

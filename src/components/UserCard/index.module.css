@@ -12,12 +12,13 @@
 @media screen and (max-width: 774px) {
   .card {
     grid-template-columns: 1fr;
+    padding: .9rem;
   }
 }
 
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 600px) {
   .card {
-    padding: .6rem;
+    padding: .7rem;
   }
 }
 
